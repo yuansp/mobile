@@ -1,0 +1,113 @@
+body,ul,li,img,h3,h4{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+img{
+	vertical-align: top;
+}
+header{
+	width: 100vw;
+	height: 30vh;
+	background: url(../img/bannertemp.ff933430.jpg) no-repeat;
+	background-size: 100vw;
+}
+header h3{
+	text-align: center;
+}
+nav .s{
+	display: -webkit-flex;
+	flex-direction: row;
+}
+nav .x{
+	display: -webkit-flex;
+	flex-direction: row;
+}
+nav div{
+	flex: 1;
+	text-align: center;
+}
+nav img{
+	width: 25vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+}
+ .he{
+	background: #eee;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	margin-top: 2vh;
+}
+.he h4{
+	width: 100vw;
+	font-weight: normal;
+	color: #333;
+	padding-left: 4vw;
+	border-left: 1vw solid #ffd705;
+}
+section{
+	display: -webkit-flex;
+	flex-direction:column;
+	width: 100vw;
+	background: #eee;
+	position: relative;
+}
+section .lis{
+	margin-bottom: 2vh;
+	background: #fff;
+}
+section .lis div{
+	margin-bottom: 0.8vh;
+}
+section .lis div img{
+	float: left;
+	width: 25vw;
+	margin-right: 2vw;
+}
+section .lis div span img{
+	width: 4vw;
+	margin: 0;
+}
+section .lis div{
+}
+section .lis .tit{
+	font-size: 4vw;
+	color: #000;
+}
+section .lis .fu{
+	margin-left: 2vw;
+	text-align: center;
+}
+section .lis .fu img {
+	float: none;
+	width: 4vw;
+	vertical-align: middle;
+}
+section .lis .xs{
+	font-size: 3vw;
+	color: #666;
+	margin-left: 2vw;
+}
+section .lis .jg{
+	font-size: 3vw;
+	color: #666;
+}
+section .lis .rig{
+	font-size: 3vw;
+	float: right;
+	top: 0;
+	margin-right: 4vw;
+}
+section .lis .r{
+	padding:0.2vh 2vw;
+	background: #ffd600;
+	border-radius: 1.5vw;
+
+}

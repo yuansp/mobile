@@ -1,0 +1,78 @@
+@charset "UTF-8";
+html{
+    font-size:16px;
+}
+.content{
+    position: relative;
+    width:6.4rem;
+    height:100vh;
+    background: url("../images/col2.png") no-repeat;
+    background-size: 6.4rem;
+
+}
+.content .top .top-left{
+    padding-top:0.3rem;
+    padding-left:0.3rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.content .top .top-right{
+    position: absolute;
+    top: 0.3rem;right:0.3rem;
+}
+.content .top .top-right img{
+    width:0.35rem;
+}
+.content .main{
+    position: absolute;
+    width:6.4rem;
+    top:6rem;
+}
+.main .seach{
+    overflow: hidden;
+    margin:0.2rem 0.4rem 0.2rem 0.4rem;
+    background: rgba(00,00,00,0.3);
+}
+.main .seach div{
+    float: left;
+    height:0.6rem;
+    overflow: hidden;
+}
+.main .seach .sao{
+    float: right;
+    border-left:1px solid #fff;
+}
+.main .seach img{
+    width:0.4rem;
+    padding-top:0.1rem;
+    margin:0rem 0.2rem;
+}
+.main .seach input{
+    position: absolute;
+    top:0.25rem;
+    height:0.5rem;
+    width:4rem;
+    background: none;
+    border:none;
+    outline: none;
+    color: #fff;
+}
+.main .nav{
+    display: flex;
+}
+.main .nav ul{
+    overflow: hidden;
+    margin-left:5vw;
+}
+.main .nav li{
+    float: left;
+    width:30vw;
+    text-align: center;
+}
+.main .nav p{
+    font-size: 0.2rem;
+    text-align: center;
+    color: #fff;
+}
+
+
